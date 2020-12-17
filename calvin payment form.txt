@@ -1,0 +1,625 @@
+<script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.22374" type="text/javascript"></script>
+<script src="https://js.jotform.com/vendor/postMessage.js?3.3.22374" type="text/javascript"></script>
+<script src="https://js.jotform.com/WidgetsServer.js?v=1608216599486" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/js/vendor/math-processor.js?v=3.3.22374" type="text/javascript"></script>
+<script type="text/javascript">
+   JotForm.setCalculations([{"decimalPlaces":"2","equation":"[{6}*{9}]","ignoreHiddenFields":"0","insertAsText":"0","newCalculationType":"1","operands":"6,9","readOnly":"0","replaceText":"","resultField":"8","showBeforeInput":"0","showEmptyDecimals":"0","useCommasForDecimals":"0"},{"decimalPlaces":"2","equation":"[{8}+{6}]","ignoreHiddenFields":"0","insertAsText":"0","newCalculationType":"1","operands":"8,6","readOnly":"0","replaceText":"","resultField":"10","showBeforeInput":"0","showEmptyDecimals":"0","useCommasForDecimals":"0"}]);
+	JotForm.init(function(){
+if (window.JotForm && JotForm.accessible) $('input_3').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_4').setAttribute('tabindex',0);
+      JotForm.description('input_16', 'We accept:');
+      setTimeout(function() {
+          $('input_6').hint('ex: 23');
+       }, 20);
+      JotForm.description('input_6', 'Please enter your payment amount from your invoice (a 3.5% online payment transaction fee will be added)');
+      setTimeout(function() {
+          $('input_9').hint('0.035');
+       }, 20);
+      JotForm.description('input_15', 'All sales are in U.S. Dollars. All Sales are final.The  Click  the link below for terms of use and Privacy Policy for Calvin Landscape, LLC.');
+	JotForm.newDefaultTheme = false;
+	JotForm.extendsNewTheme = false;
+	JotForm.newPaymentUIForNewCreatedForms = false;
+      JotForm.alterTexts(undefined);
+      JotForm.alterTexts({"couponApply":"Apply","couponBlank":"Please enter a coupon.","couponChange":"","couponEnter":"Enter coupon","couponExpired":"Coupon is expired. Please try another one.","couponInvalid":"Coupon is invalid.","couponValid":"Coupon is valid.","shippingShipping":"Shipping","taxTax":"Tax","totalSubtotal":"Subtotal","totalTotal":"Total"}, true);
+	JotForm.clearFieldOnHide="disable";
+          JotForm.isNewSaveAndContinueLaterActive = true;
+	JotForm.submitError="jumpToFirstError";
+    /*INIT-END*/
+	});
+
+   JotForm.prepareCalculationsOnTheFly([null,null,{"description":"","name":"name","qid":"2","text":"Name","type":"control_fullname"},{"description":"","name":"customerAccount","qid":"3","subLabel":"","text":"Customer Account Number","type":"control_textbox"},{"description":"","name":"calvinLandscape","qid":"4","subLabel":"","text":"Calvin Landscape Invoice Number","type":"control_textbox"},{"description":"","name":"customerAddress","qid":"5","text":"Customer Address","type":"control_address"},{"description":"Please enter your payment amount from your invoice (a 3.5% online payment transaction fee will be added)","name":"paymentAmount","qid":"6","subLabel":"","text":"Payment amount:","type":"control_number"},null,{"description":"","name":"automatic358","qid":"8","subLabel":"","text":"Automatic 3.5% Convenience Fee Added","type":"control_calculation"},{"description":"","name":"number","qid":"9","subLabel":"","text":"Number","type":"control_number"},{"description":"","name":"totalPayment","qid":"10","subLabel":"","text":"Total Payment Amount","type":"control_calculation"},null,{"description":"","name":"pleaseVerify","qid":"12","text":"Please verify that you are human","type":"control_captcha"},null,{"description":"","name":"tags","qid":"14","text":"Tags","type":"control_checkbox"},{"description":"All sales are in U.S. Dollars. All Sales are final.The  Click  the link below for terms of use and Privacy Policy for Calvin Landscape, LLC.","name":"typeA","qid":"15","text":"","type":"control_widget"},{"description":"We accept:","labelText":"","name":"image","qid":"16","text":"creditcards.5d8e27b9afc9d5.13655463","type":"control_image"},{"description":"","name":"myProducts","qid":"17","text":"My Products","type":"control_authnet"},{"name":"submit","qid":"18","text":"Submit","type":"control_button"}]);
+   setTimeout(function() {
+JotForm.paymentExtrasOnTheFly([null,null,{"description":"","name":"name","qid":"2","text":"Name","type":"control_fullname"},{"description":"","name":"customerAccount","qid":"3","subLabel":"","text":"Customer Account Number","type":"control_textbox"},{"description":"","name":"calvinLandscape","qid":"4","subLabel":"","text":"Calvin Landscape Invoice Number","type":"control_textbox"},{"description":"","name":"customerAddress","qid":"5","text":"Customer Address","type":"control_address"},{"description":"Please enter your payment amount from your invoice (a 3.5% online payment transaction fee will be added)","name":"paymentAmount","qid":"6","subLabel":"","text":"Payment amount:","type":"control_number"},null,{"description":"","name":"automatic358","qid":"8","subLabel":"","text":"Automatic 3.5% Convenience Fee Added","type":"control_calculation"},{"description":"","name":"number","qid":"9","subLabel":"","text":"Number","type":"control_number"},{"description":"","name":"totalPayment","qid":"10","subLabel":"","text":"Total Payment Amount","type":"control_calculation"},null,{"description":"","name":"pleaseVerify","qid":"12","text":"Please verify that you are human","type":"control_captcha"},null,{"description":"","name":"tags","qid":"14","text":"Tags","type":"control_checkbox"},{"description":"All sales are in U.S. Dollars. All Sales are final.The  Click  the link below for terms of use and Privacy Policy for Calvin Landscape, LLC.","name":"typeA","qid":"15","text":"","type":"control_widget"},{"description":"We accept:","labelText":"","name":"image","qid":"16","text":"creditcards.5d8e27b9afc9d5.13655463","type":"control_image"},{"description":"","name":"myProducts","qid":"17","text":"My Products","type":"control_authnet"},{"name":"submit","qid":"18","text":"Submit","type":"control_button"}]);}, 20); 
+</script>
+<link href="https://cdn.jotfor.ms/static/formCss.css?3.3.22374" rel="stylesheet" type="text/css" />
+<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.22374" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.22374" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/566a91c2977cdfcd478b4567.css?"/>
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_feature.css?3.3.22374" />
+<style type="text/css">
+    .form-label-left{
+        width:150px;
+    }
+    .form-line{
+        padding-top:12px;
+        padding-bottom:12px;
+    }
+    .form-label-right{
+        width:150px;
+    }
+    .form-all{
+        width:690px;
+        color:#555 !important;
+        font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+        font-size:14px;
+    }
+</style>
+
+<style type="text/css" id="form-designer-style">
+    /* Injected CSS Code */
+/*PREFERENCES STYLE*/
+    .form-all {
+      font-family: Lucida Grande, sans-serif;
+    }
+    .form-all .qq-upload-button,
+    .form-all .form-submit-button,
+    .form-all .form-submit-reset,
+    .form-all .form-submit-print {
+      font-family: Lucida Grande, sans-serif;
+    }
+    .form-all .form-pagebreak-back-container,
+    .form-all .form-pagebreak-next-container {
+      font-family: Lucida Grande, sans-serif;
+    }
+    .form-header-group {
+      font-family: Lucida Grande, sans-serif;
+    }
+    .form-label {
+      font-family: Lucida Grande, sans-serif;
+    }
+  
+    .form-label.form-label-auto {
+      
+    display: inline-block;
+    float: left;
+    text-align: left;
+  
+    }
+  
+    .form-line {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+  
+    .form-all {
+      max-width: 690px;
+      width: 100%;
+    }
+  
+    .form-label.form-label-left,
+    .form-label.form-label-right,
+    .form-label.form-label-left.form-label-auto,
+    .form-label.form-label-right.form-label-auto {
+      width: 150px;
+    }
+  
+    .form-all {
+      font-size: 14px
+    }
+    .form-all .qq-upload-button,
+    .form-all .qq-upload-button,
+    .form-all .form-submit-button,
+    .form-all .form-submit-reset,
+    .form-all .form-submit-print {
+      font-size: 14px
+    }
+    .form-all .form-pagebreak-back-container,
+    .form-all .form-pagebreak-next-container {
+      font-size: 14px
+    }
+  
+    .supernova .form-all, .form-all {
+      background-color: #fff;
+    }
+  
+    .form-all {
+      color: #555;
+    }
+    .form-header-group .form-header {
+      color: #555;
+    }
+    .form-header-group .form-subHeader {
+      color: #555;
+    }
+    .form-label-top,
+    .form-label-left,
+    .form-label-right,
+    .form-html,
+    .form-checkbox-item label,
+    .form-radio-item label {
+      color: #555;
+    }
+    .form-sub-label {
+      color: #6f6f6f;
+    }
+  
+    .supernova {
+      background-color: rgba(255,255,255,0);
+    }
+    .supernova body {
+      background: transparent;
+    }
+  
+    .form-textbox,
+    .form-textarea,
+    .form-dropdown,
+    .form-radio-other-input,
+    .form-checkbox-other-input,
+    .form-captcha input,
+    .form-spinner input {
+      background-color: undefined;
+    }
+  
+    .supernova {
+      background-image: none;
+    }
+    #stage {
+      background-image: none;
+    }
+  
+    .form-all {
+      background-image: none;
+    }
+  
+  .ie-8 .form-all:before { display: none; }
+  .ie-8 {
+    margin-top: auto;
+    margin-top: initial;
+  }
+  
+  /*PREFERENCES STYLE*//*__INSPECT_SEPERATOR__*/.form-label.form-label-auto {
+        
+        display: inline-block;
+        float: left;
+        text-align: left;
+      
+      }
+    /* Injected CSS Code */
+</style>
+
+<form class="jotform-form" action="https://pci.jotform.com/submit/92114577668164" method="post" name="form_92114577668164" id="92114577668164" accept-charset="utf-8" autocomplete="on">
+  <input type="hidden" name="formID" value="92114577668164" />
+  <input type="hidden" id="JWTContainer" value="" />
+  <input type="hidden" id="cardinalOrderNumber" value="" />
+  <div role="main" class="form-all">
+    <ul class="form-section page-section">
+      <li class="form-line jf-required" data-type="control_fullname" id="id_2">
+        <label class="form-label form-label-left form-label-auto" id="label_2" for="first_2">
+          Name
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_2" class="form-input jf-required">
+          <div data-wrapper-react="true">
+            <span class="form-sub-label-container" style="vertical-align:top" data-input-type="first">
+              <input type="text" id="first_2" name="q2_name[first]" class="form-textbox validate[required]" size="10" value="" data-component="first" aria-labelledby="label_2 sublabel_2_first" required="" />
+              <label class="form-sub-label" for="first_2" id="sublabel_2_first" style="min-height:13px" aria-hidden="false"> First Name </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top" data-input-type="last">
+              <input type="text" id="last_2" name="q2_name[last]" class="form-textbox validate[required]" size="15" value="" data-component="last" aria-labelledby="label_2 sublabel_2_last" required="" />
+              <label class="form-sub-label" for="last_2" id="sublabel_2_last" style="min-height:13px" aria-hidden="false"> Last Name </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_address" id="id_5">
+        <label class="form-label form-label-left form-label-auto" id="label_5" for="input_5_addr_line1">
+          Customer Address
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_5" class="form-input jf-required">
+          <div summary="" class="form-address-table jsTest-addressField">
+            <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+              <span class="form-address-line form-address-street-line jsTest-address-lineField">
+                <span class="form-sub-label-container" style="vertical-align:top">
+                  <input type="text" id="input_5_addr_line1" name="q5_customerAddress[addr_line1]" class="form-textbox validate[required] form-address-line" value="" data-component="address_line_1" aria-labelledby="label_5 sublabel_5_addr_line1" />
+                  <label class="form-sub-label" for="input_5_addr_line1" id="sublabel_5_addr_line1" style="min-height:13px" aria-hidden="false"> Street Address </label>
+                </span>
+              </span>
+            </div>
+            <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+              <span class="form-address-line form-address-street-line jsTest-address-lineField">
+                <span class="form-sub-label-container" style="vertical-align:top">
+                  <input type="text" id="input_5_addr_line2" name="q5_customerAddress[addr_line2]" class="form-textbox form-address-line" value="" data-component="address_line_2" aria-labelledby="label_5 sublabel_5_addr_line2" />
+                  <label class="form-sub-label" for="input_5_addr_line2" id="sublabel_5_addr_line2" style="min-height:13px" aria-hidden="false"> Street Address Line 2 </label>
+                </span>
+              </span>
+            </div>
+            <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+              <span class="form-address-line form-address-city-line jsTest-address-lineField ">
+                <span class="form-sub-label-container" style="vertical-align:top">
+                  <input type="text" id="input_5_city" name="q5_customerAddress[city]" class="form-textbox validate[required] form-address-city" value="" data-component="city" aria-labelledby="label_5 sublabel_5_city" />
+                  <label class="form-sub-label" for="input_5_city" id="sublabel_5_city" style="min-height:13px" aria-hidden="false"> City </label>
+                </span>
+              </span>
+              <span class="form-address-line form-address-state-line jsTest-address-lineField ">
+                <span class="form-sub-label-container" style="vertical-align:top">
+                  <input type="text" id="input_5_state" name="q5_customerAddress[state]" class="form-textbox validate[required] form-address-state" value="" data-component="state" aria-labelledby="label_5 sublabel_5_state" />
+                  <label class="form-sub-label" for="input_5_state" id="sublabel_5_state" style="min-height:13px" aria-hidden="false"> State / Province </label>
+                </span>
+              </span>
+            </div>
+            <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+              <span class="form-address-line form-address-zip-line jsTest-address-lineField ">
+                <span class="form-sub-label-container" style="vertical-align:top">
+                  <input type="text" id="input_5_postal" name="q5_customerAddress[postal]" class="form-textbox form-address-postal" value="" data-component="zip" aria-labelledby="label_5 sublabel_5_postal" />
+                  <label class="form-sub-label" for="input_5_postal" id="sublabel_5_postal" style="min-height:13px" aria-hidden="false"> Postal / Zip Code </label>
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_3">
+        <label class="form-label form-label-left form-label-auto" id="label_3" for="input_3"> Customer Account Number </label>
+        <div id="cid_3" class="form-input">
+          <input type="text" id="input_3" name="q3_customerAccount" data-type="input-textbox" class="form-textbox" size="20" value="" data-component="textbox" aria-labelledby="label_3" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_4">
+        <label class="form-label form-label-left form-label-auto" id="label_4" for="input_4"> Calvin Landscape Invoice Number </label>
+        <div id="cid_4" class="form-input">
+          <input type="text" id="input_4" name="q4_calvinLandscape" data-type="input-textbox" class="form-textbox" size="20" value="" data-component="textbox" aria-labelledby="label_4" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_image" id="id_16">
+        <div id="cid_16" class="form-input-wide">
+          <div style="text-align:center">
+            <img alt="" class="form-image" style="border:0" src="https://www.jotform.com/uploads/Fivestonesmarketing/form_files/creditcards.5d8e27b9afc9d5.13655463.png" height="95px" width="618px" data-component="image" />
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_number" id="id_6">
+        <label class="form-label form-label-left form-label-auto" id="label_6" for="input_6">
+          Payment amount:
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_6" class="form-input jf-required">
+          <input type="number" id="input_6" name="q6_paymentAmount" data-type="input-number" class=" form-number-input form-textbox validate[required]" style="width:60px" size="5" value="" placeholder="ex: 23" data-component="number" aria-labelledby="label_6" required="" step="any" />
+        </div>
+      </li>
+      <li class="form-line always-hidden" data-type="control_number" id="id_9">
+        <label class="form-label form-label-left form-label-auto" id="label_9" for="input_9"> Number </label>
+        <div id="cid_9" class="form-input always-hidden">
+          <input type="number" id="input_9" name="q9_number" data-type="input-number" class="form-readonly  form-number-input form-textbox" style="width:60px" size="5" value="0.035" tabindex="-1" placeholder="0.035" data-component="number" aria-labelledby="label_9" readonly="" step="any" />
+        </div>
+      </li>
+      <li class="form-line always-hidden" data-type="control_calculation" id="id_8">
+        <label class="form-label form-label-left form-label-auto" id="label_8" for="input_8"> Automatic 3.5% Convenience Fee Added </label>
+        <div id="cid_8" class="form-input always-hidden">
+          <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_8" name="q8_automatic358" value="0" size="20" />
+        </div>
+      </li>
+      <li class="form-line always-hidden" data-type="control_calculation" id="id_10">
+        <label class="form-label form-label-left form-label-auto" id="label_10" for="input_10"> Total Payment Amount </label>
+        <div id="cid_10" class="form-input always-hidden">
+          <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_10" name="q10_totalPayment" value="0" size="20" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_authnet" id="id_17" data-payment="true">
+        <label class="form-label form-label-left form-label-auto" id="label_17" for="input_17"> My Products </label>
+        <div id="cid_17" class="form-input">
+          <div data-wrapper-react="true">
+            <div data-wrapper-react="true">
+              <div class="filter-container">
+              </div>
+              <input type="hidden" name="simple_fpc" data-payment_type="authnet" data-component="payment1" value="17" />
+              <input type="hidden" name="payment_total_checksum" id="payment_total_checksum" data-component="payment2" />
+              <div id="image-overlay" class="overlay-content" style="display:none">
+                <img id="current-image" />
+                <span class="lb-prev-button">
+                  prev
+                </span>
+                <span class="lb-next-button">
+                  next
+                </span>
+                <span class="lb-close-button">
+                  ( X )
+                </span>
+                <span class="image-overlay-product-container">
+                </span>
+              </div>
+              <span class="form-sub-label-container" style="vertical-align:top">
+                <input type="text" class="form-textbox validate[Numeric]" id="input_17_donation" name="q17_myProducts[price]" value="" readonly="" data-custom-amount-field="10" data-component="paymentDonation" />
+                <span class="donation_currency">
+                  USD
+                </span>
+                <label class="form-sub-label" for="input_17_donation" style="min-height:13px" aria-hidden="false"> Description </label>
+              </span>
+              <hr/>
+            </div>
+            <table class="form-address-table payment-form-table" cellPadding="0" cellSpacing="0">
+              <tbody>
+                <tr>
+                  <th colSpan="2" style="text-align:left;margin-top:20px;display:table" id="ccTitle17">
+                    Credit Card
+                  </th>
+                </tr>
+                <tr>
+                  <td width="50%">
+                    <span class="form-sub-label-container" style="vertical-align:top">
+                      <input type="text" id="input_17_cc_firstName" name="q17_myProducts[cc_firstName]" class="form-textbox cc_firstName" size="20" value="" data-component="cc_firstName" />
+                      <label class="form-sub-label" for="input_17_cc_firstName" id="sublabel_cc_firstName" style="min-height:13px;margin:0 0 3px 0" aria-hidden="false"> First Name </label>
+                    </span>
+                  </td>
+                  <td width="50%">
+                    <span class="form-sub-label-container" style="vertical-align:top">
+                      <input type="text" id="input_17_cc_lastName" name="q17_myProducts[cc_lastName]" class="form-textbox cc_lastName" size="20" value="" data-component="cc_lastName" />
+                      <label class="form-sub-label" for="input_17_cc_lastName" id="sublabel_cc_lastName" style="min-height:13px;margin:0 0 3px 0" aria-hidden="false"> Last Name </label>
+                    </span>
+                  </td>
+                </tr>
+                <tr class="if_cc_field">
+                  <td width="50%">
+                    <span class="form-sub-label-container" style="vertical-align:top">
+                      <input type="number" id="input_17_cc_number" name="q17_myProducts[cc_number]" class="form-textbox cc_number" autoComplete="off" size="20" value="" data-component="cc_number" />
+                      <label class="form-sub-label" for="input_17_cc_number" id="sublabel_cc_number" style="min-height:13px;margin:0 0 3px 0" aria-hidden="false"> Credit Card Number </label>
+                    </span>
+                  </td>
+                  <td width="50%">
+                    <span class="form-sub-label-container" style="vertical-align:top">
+                      <input type="number" id="input_17_cc_ccv" name="q17_myProducts[cc_ccv]" class="form-textbox cc_ccv" autoComplete="off" style="width:52px" value="" data-component="cc_ccv" />
+                      <label class="form-sub-label" for="input_17_cc_ccv" id="sublabel_cc_ccv" style="min-height:13px;margin:0 0 3px 0" aria-hidden="false"> Security Code </label>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="50%">
+                    <span class="form-sub-label-container" style="vertical-align:top">
+                      <select class="form-dropdown cc_exp_month" name="q17_myProducts[cc_exp_month]" id="input_17_cc_exp_month" data-component="cc_exp_month">
+                        <option>  </option>
+                        <option value="January"> January </option>
+                        <option value="February"> February </option>
+                        <option value="March"> March </option>
+                        <option value="April"> April </option>
+                        <option value="May"> May </option>
+                        <option value="June"> June </option>
+                        <option value="July"> July </option>
+                        <option value="August"> August </option>
+                        <option value="September"> September </option>
+                        <option value="October"> October </option>
+                        <option value="November"> November </option>
+                        <option value="December"> December </option>
+                      </select>
+                      <label class="form-sub-label" for="input_17_cc_exp_month" id="sublabel_cc_exp_month" style="min-height:13px;margin:0 0 3px 0" aria-hidden="false"> Expiration Month </label>
+                    </span>
+                  </td>
+                  <td width="50%">
+                    <span class="form-sub-label-container" style="vertical-align:top">
+                      <select class="form-dropdown cc_exp_year" name="q17_myProducts[cc_exp_year]" id="input_17_cc_exp_year" data-component="cc_exp_year">
+                        <option>  </option>
+                        <option value="2020"> 2020 </option>
+                        <option value="2021"> 2021 </option>
+                        <option value="2022"> 2022 </option>
+                        <option value="2023"> 2023 </option>
+                        <option value="2024"> 2024 </option>
+                        <option value="2025"> 2025 </option>
+                        <option value="2026"> 2026 </option>
+                        <option value="2027"> 2027 </option>
+                        <option value="2028"> 2028 </option>
+                        <option value="2029"> 2029 </option>
+                      </select>
+                      <label class="form-sub-label" for="input_17_cc_exp_year" id="sublabel_cc_exp_year" style="min-height:13px;margin:0 0 3px 0" aria-hidden="false"> Expiration Year </label>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <th colSpan="2" style="text-align:left;margin-top:20px;display:table">
+                    Billing Address
+                  </th>
+                </tr>
+                <tr>
+                  <td colSpan="2">
+                    <span class="form-sub-label-container" style="vertical-align:top">
+                      <input type="text" id="input_17_addr_line1" name="q17_myProducts[addr_line1]" class="form-textbox form-address-line" value="" data-component="addr_line1" />
+                      <label class="form-sub-label" for="input_17_addr_line1" id="sublabel_17_addr_line1" style="min-height:13px" aria-hidden="false"> Street Address </label>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td colSpan="2">
+                    <span class="form-sub-label-container" style="vertical-align:top">
+                      <input type="text" id="input_17_addr_line2" name="q17_myProducts[addr_line2]" class="form-textbox form-address-line" size="46" value="" data-component="addr_line2" />
+                      <label class="form-sub-label" for="input_17_addr_line2" id="sublabel_17_addr_line2" style="min-height:13px" aria-hidden="false"> Street Address Line 2 </label>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="50%">
+                    <span class="form-sub-label-container" style="vertical-align:top">
+                      <input type="text" id="input_17_city" name="q17_myProducts[city]" class="form-textbox form-address-city" size="21" value="" data-component="city" />
+                      <label class="form-sub-label" for="input_17_city" id="sublabel_17_city" style="min-height:13px" aria-hidden="false"> City </label>
+                    </span>
+                  </td>
+                  <td>
+                    <span class="form-sub-label-container" style="vertical-align:top">
+                      <input type="text" id="input_17_state" name="q17_myProducts[state]" class="form-textbox form-address-state" size="22" value="" data-component="state" />
+                      <label class="form-sub-label" for="input_17_state" id="sublabel_17_state" style="min-height:13px" aria-hidden="false"> State / Province </label>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="50%">
+                    <span class="form-sub-label-container" style="vertical-align:top">
+                      <input type="text" id="input_17_postal" name="q17_myProducts[postal]" class="form-textbox form-address-postal" size="10" value="" data-component="postal" />
+                      <label class="form-sub-label" for="input_17_postal" id="sublabel_17_postal" style="min-height:13px" aria-hidden="false"> Postal / Zip Code </label>
+                    </span>
+                  </td>
+                  <td>
+                    <span class="form-sub-label-container" style="vertical-align:top">
+                      <select class="form-dropdown form-address-country" name="q17_myProducts[country]" id="input_17_country" data-component="country">
+                        <option value="" selected=""> Please Select </option>
+                        <option value="United States"> United States </option>
+                      
+                      </select>
+                      <label class="form-sub-label" for="input_17_country" id="sublabel_17_country" style="min-height:13px" aria-hidden="false"> Country </label>
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_captcha" id="id_12">
+        <label class="form-label form-label-left form-label-auto" id="label_12" for="input_12">
+          Please verify that you are human
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_12" class="form-input jf-required">
+          <section data-wrapper-react="true">
+            <div id="recaptcha_input_12" data-component="recaptcha" data-callback="recaptchaCallbackinput_12" data-expired-callback="recaptchaExpiredCallbackinput_12">
+            </div>
+            <input type="hidden" id="input_12" class="hidden validate[required]" name="recaptcha_visible" required="" />
+            <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=explicit&amp;onload=recaptchaLoadedinput_12"></script>
+            <script type="text/javascript">
+                    var recaptchaLoadedinput_12 = function()
+          {
+            window.grecaptcha.render($("recaptcha_input_12"), {
+              sitekey: '6LdU3CgUAAAAAB0nnFM3M3T0sy707slYYU51RroJ',
+            });
+            var grecaptchaBadge = document.querySelector('.grecaptcha-badge');
+            if (grecaptchaBadge)
+            {
+              grecaptchaBadge.style.boxShadow = 'gray 0px 0px 2px';
+            }
+          };
+
+        /**
+         * Called when the reCaptcha verifies the user is human
+         * For invisible reCaptcha;
+         *   Submit event is stopped after validations and recaptcha is executed.
+         *   If a challenge is not displayed, this will be called right after grecaptcha.execute()
+         *   If a challenge is displayed, this will be called when the challenge is solved successfully
+         *   Submit is triggered to actually submit the form since it is stopped before.
+         */
+        var recaptchaCallbackinput_12 = function()
+          {
+            var isInvisibleReCaptcha = false;
+            var hiddenInput = $("input_12");
+            hiddenInput.setValue(1);
+            if (!isInvisibleReCaptcha)
+            {
+              if (hiddenInput.validateInput)
+              {
+                hiddenInput.validateInput();
+              }
+            }
+            else
+            {
+              triggerSubmit(hiddenInput.form)
+            }
+
+            function triggerSubmit(formElement)
+            {
+              var button = formElement.ownerDocument.createElement('input');
+              button.style.display = 'none';
+              button.type = 'submit';
+              formElement.appendChild(button).click();
+              formElement.removeChild(button);
+            }
+          }
+
+          // not really required for invisible recaptcha
+        var recaptchaExpiredCallbackinput_12 = function()
+          {
+            var hiddenInput = $("input_12");
+            hiddenInput.writeAttribute("value", false);
+            if (hiddenInput.validateInput)
+            {
+              hiddenInput.validateInput();
+            }
+          }
+            </script>
+          </section>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_widget" id="id_15">
+        <div id="cid_15" class="form-input jf-required">
+          <div data-widget-name="Terms &amp;amp; Condition" style="width:100%;text-align:Left;overflow-x:auto" data-component="widget-field">
+            <iframe data-client-id="52948fb29322cd302b00000c" title="Terms &amp;amp; Condition" frameBorder="0" scrolling="no" allowtransparency="true" allow="geolocation; microphone; camera; autoplay; encrypted-media; fullscreen" data-type="iframe" class="custom-field-frame" id="customFieldFrame_15" src="" style="max-width:620px;border:none;width:100%;height:50px" data-width="620" data-height="50">
+            </iframe>
+            <div class="widget-inputs-wrapper">
+              <input type="hidden" id="input_15" class="form-hidden form-widget widget-required " name="q15_typeA" value="" />
+              <input type="hidden" id="widget_settings_15" class="form-hidden form-widget-settings" value="%5B%7B%22name%22%3A%22termsText%22%2C%22value%22%3A%22I%20agree%20to%20%7Bterms%20%26%20conditions%7D.%22%7D%2C%7B%22name%22%3A%22termsLink%22%2C%22value%22%3A%22http%3A%2F%2Fcalvinlandscape.com%2Fterms-of-use%2F%22%7D%2C%7B%22name%22%3A%22theme%22%2C%22value%22%3A%22default%22%7D%2C%7B%22name%22%3A%22acceptedText%22%2C%22value%22%3A%22Accepted%22%7D%5D" data-version="2" />
+            </div>
+            <script type="text/javascript">
+            setTimeout(function()
+{
+  var _cFieldFrame = document.getElementById("customFieldFrame_15");
+  if (_cFieldFrame)
+  {
+    _cFieldFrame.onload = function()
+    {
+      if (typeof widgetFrameLoaded !== 'undefined')
+      {
+        widgetFrameLoaded(15, {
+          "formID": 92114577668164
+        })
+      }
+    };
+    _cFieldFrame.src = "//app-widgets.jotform.io/termsConditions/?qid=15&ref=" + encodeURIComponent(window.location.protocol + "//" + window.location.host) + '' + '' + '&injectCSS=' + encodeURIComponent(window.location.search.indexOf("ndt=1") > -1);
+    _cFieldFrame.addClassName("custom-field-frame-rendered");
+  }
+}, 0);
+            </script>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_button" id="id_18">
+        <div id="cid_18" class="form-input-wide">
+          <div style="margin-left:156px" data-align="auto" class="form-buttons-wrapper form-buttons-auto   jsTest-button-wrapperField">
+            <button id="input_scl_18" type="button" class="form-submit-button form-sacl-button js-new-sacl-button  jf-form-buttons sacl-button" data-component="button">
+              Save
+            </button>
+            <button id="input_18" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
+              Submit
+            </button>
+          </div>
+        </div>
+      </li>
+      <li style="display:none">
+        Should be Empty:
+        <input type="text" name="website" value="" />
+      </li>
+    </ul>
+  </div>
+  <script>
+  JotForm.showJotFormPowered = "0";
+  </script>
+  <script>
+  JotForm.poweredByText = "Powered by JotForm";
+  </script>
+  <input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="92114577668164" />
+  <script type="text/javascript">
+  var all_spc = document.querySelectorAll("form[id='92114577668164'] .si" + "mple" + "_spc");
+for (var i = 0; i < all_spc.length; i++)
+{
+  all_spc[i].value = "92114577668164-92114577668164";
+}
+  </script>
+</form>
+<script type="text/javascript">window.GOOGLE_SIGNON = "172124630376-qk1qmdfmur2ojaf39e070iqhpt2foaip.apps.googleusercontent.com"</script>
+<script type="text/javascript">window.FACEBOOK_SIGNON_APP_ID = "1140740696088074"</script>
+<script>window.JotFormAPIEndpoint = "https://api.jotform.com"; </script>
+<script>window.___JFsclActive = true; </script>
+<script>window.JFForm = { id: '92114577668164', skippable: true, isHipaa: '' };</script> 
+<script src="https://cdn.jotfor.ms//common/FormUserScripts.js"></script>
